@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+<title>Web Photo Gallery </title>
+</head>
+
+<header>
+Web Photo Gallery
+</header>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+Responsive Web content:
+RWD:-
+1.  break point : -Fix the target devices : for mobile,for tablet,for desktop , for tv.....
+2. Mobile First
+3. width : use %, max-width:100%; max-height:100%;
+4. use media query
+-->
+
+
+
+<style>
+
+/*  tag selector */
+*{
+margin:0px;
+padding:0px;
+transition:0.50s;
+box-sizing: border-box;
+}
+
+
+header
+{
+width:80%;
+height:100px;
+background:black;
+color:white;
+margin:auto;
+text-align:center;
+padding-top:20px;
+font-size:50px;
+color:cyan;
+text-transform:uppercase;
+/*
+background-image:url(images/a3.jpg);
+*/
+box-shadow:10px 10px 40px magenta;
+
+}
+
+body
+{
+
+/*
+background-image:url("https://static.vecteezy.com/system/resources/previews/009/360/290/non_2x/texture-web-background-stylish-carbon-fiber-vector.jpg");
+*/
+
+}
+
+main
+{
+
+margin-top:20px;
+
+}
+
+.pic
+{
+width:15%;
+margin:50px;
+
+
+}
+
+.pic:hover
+{
+transform:scale(1.50) rotate(360deg);
+cursor:pointer;
+opacity:1;
+border-radius:10px;
+box-shadow:5px 5px 20px cyan;
+}
+
+
+
+@media only screen and (max-width: 600px) 
+{
+
+body{background:green;}
+header{
+ font-size:10px;
+height:auto;
+padding:2px;
+   }
+
+main
+{
+text-align:center;
+
+}
+.pic
+{
+width:90%;
+margin:5px;
+
+}
+
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px)
+ {
+
+body{background:yellow;}
+main
+{
+text-align:center;
+}
+
+
+.pic
+{
+width:40%;
+margin:5px;
+}
+
+
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) 
+{
+
+body{background:cyan;}
+.pic
+{
+width:30%;
+margin:5px;
+
+}
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up)  */
+
+@media only screen and (min-width: 992px)
+ {
+
+
+body{background:red;}
+.pic
+{
+width:50%;
+margin:5px;
+
+}
+
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+
+@media only screen and (min-width: 1200px) 
+{
+
+
+body{background:purple;}
+
+}
+
+
+
+
+
+</style>
+
+
+<body>
+<main>
+<a href="p1.html">
+<img src ="images/p1.jpg" class="pic">
+</a>
+
+
+<a href="p2.html">
+<img src ="images/p2.jpg" class="pic">
+</a>
+
+
+
+
+<a href="p3.html">
+<img src ="images/p3.jpg" class="pic">
+</a>
+
+
+
+
+
+
+<a href="p4.html">
+<img src ="images/p4.jpg" class="pic">
+</a>
+
+
+
+
+
+<a href="p5.html">
+<img src ="images/p5.jpg" class="pic">
+</a>
+
+
+
+
+
+<a href="p6.html">
+<img src ="images/p6.jpg" class="pic">
+</a>
+
+
+
+<a href="p7.html">
+<img src ="images/p7.jpg" class="pic">
+</a>
+
+
+
+
+
+
+
+</main>
+
+</body>
+<footer>
+<p>All Right Reserved</p>
+
+</footer>
+
+
+
+</html>
+
